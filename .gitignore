@@ -1,0 +1,8 @@
+.idea/
+/vendor
+/log
+/cache
+/node_modules
+/.cache
+composer.lock
+composer.phar

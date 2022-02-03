@@ -1,0 +1,5 @@
+SetEnvIf Request_URI "^.*" index_rel_path=public/index.php
+
+RewriteEngine on
+RewriteRule ^public/(.*) - [L]
+RewriteRule "(.*)" "%{ENV:INDEX_REL_PATH}"
